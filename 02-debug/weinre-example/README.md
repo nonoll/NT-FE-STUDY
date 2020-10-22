@@ -23,3 +23,20 @@ npm run start
 - Remote 탭에서 연결된 대상을 확인하고, 디버깅
 
 ## 실행 예
+- ios 시뮬레이터 진입
+![ios_default](./screenshot/ios_default.png)
+
+- - - 
+
+- weinre remote 탭
+![weinre_remote](./screenshot/weinre_remote.png)
+
+- - -
+
+- weinre console : alert 실행
+![weinre_console](./screenshot/weinre_console.png)
+
+- - -
+
+- ios 시뮬레이터 확인
+![ios_alert](./screenshot/ios_alert.png)
