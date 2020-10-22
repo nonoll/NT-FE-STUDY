@@ -24,19 +24,19 @@ npm run start
 
 ## 실행 예
 - ios 시뮬레이터 진입
-![ios_default](./screenshot/ios_default.png)
+- ![ios_default](./screenshot/ios_default.png)
 
 - - - 
 
 - weinre remote 탭
-![weinre_remote](./screenshot/weinre_remote.png)
+- ![weinre_remote](./screenshot/weinre_remote.png)
 
 - - -
 
 - weinre console : alert 실행
-![weinre_console](./screenshot/weinre_console.png)
+- ![weinre_console](./screenshot/weinre_console.png)
 
 - - -
 
 - ios 시뮬레이터 확인
-![ios_alert](./screenshot/ios_alert.png)
+- ![ios_alert](./screenshot/ios_alert.png)
