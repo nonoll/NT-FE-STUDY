@@ -1,0 +1,11 @@
+{
+  "name": "weinre-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "weinre",
+    "start:aos": "weinre --boundHost ipaddress"
+  },
+  "author": "",
+  "license": "ISC"
+}

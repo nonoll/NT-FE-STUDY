@@ -5,7 +5,6 @@
 - rendering
     - dark mode test
     - vision
-- a
 
 ## 모바일 디버깅 도구 학습(android, ios)
 - android
