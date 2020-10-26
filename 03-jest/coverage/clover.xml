@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1603728236578" clover="3.2.0">
+  <project timestamp="1603728236578" name="All files">
+    <metrics statements="16" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="8" elements="29" coveredelements="24" complexity="0" loc="16" ncloc="16" packages="2" files="3" classes="3"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="sum.js" path="/Users/nhn/github/NT-FE-STUDY/03-jest/src/sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.snapshot">
+      <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="7"/>
+      <file name="Clock.react.js" path="/Users/nhn/github/NT-FE-STUDY/03-jest/src/snapshot/Clock.react.js">
+        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="Link.react.js" path="/Users/nhn/github/NT-FE-STUDY/03-jest/src/snapshot/Link.react.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
