@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1603900976204" clover="3.2.0">
+  <project timestamp="1603900976204" name="All files">
+    <metrics statements="36" coveredstatements="31" conditionals="4" coveredconditionals="4" methods="25" coveredmethods="20" elements="65" coveredelements="55" complexity="0" loc="36" ncloc="36" packages="1" files="7" classes="7"/>
+    <file name="01.ts" path="/Users/nhn/github/NT-FE-STUDY/04-tdd/src/chapter-1/01.ts">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="02.ts" path="/Users/nhn/github/NT-FE-STUDY/04-tdd/src/chapter-1/02.ts">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+    </file>
+    <file name="03.ts" path="/Users/nhn/github/NT-FE-STUDY/04-tdd/src/chapter-1/03.ts">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+    </file>
+    <file name="04.ts" path="/Users/nhn/github/NT-FE-STUDY/04-tdd/src/chapter-1/04.ts">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+    </file>
+    <file name="05.ts" path="/Users/nhn/github/NT-FE-STUDY/04-tdd/src/chapter-1/05.ts">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+    </file>
+    <file name="06.ts" path="/Users/nhn/github/NT-FE-STUDY/04-tdd/src/chapter-1/06.ts">
+      <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="3"/>
+      <line num="2" count="6" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="10" type="stmt"/>
+      <line num="9" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+    </file>
+    <file name="07.ts" path="/Users/nhn/github/NT-FE-STUDY/04-tdd/src/chapter-1/07.ts">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <line num="2" count="6" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="20" type="stmt"/>
+      <line num="11" count="6" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="31" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
