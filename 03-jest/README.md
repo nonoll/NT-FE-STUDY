@@ -573,7 +573,7 @@ describe('outer', () => {
 // describe inner 2
 // describe outer-c
 // test for describe inner 1
-// test for describe outer
+// test for outer 1
 // test for describe inner 2
 ```
 
