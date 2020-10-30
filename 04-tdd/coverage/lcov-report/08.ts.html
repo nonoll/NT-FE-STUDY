@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for 07.ts</title>
+    <title>Code coverage report for 08.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> 07.ts</h1>
+        <h1><a href="index.html">All files</a> 08.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -100,7 +100,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -123,7 +123,7 @@
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">function getClassName&lt;T&gt;(target: T) {
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">function getClassName&lt;T = unknown&gt;(target: T) {
   return (target as unknown as Function).constructor.name;
 }
 &nbsp;
@@ -141,7 +141,7 @@ export abstract class Money {
   }
 &nbsp;
   equals(money: Money): boolean {
-    return this.amount === money.amount &amp;&amp; getClassName(this) === getClassName(money);
+    return this.amount === money.amount &amp;&amp; getClassName&lt;Money&gt;(this) === getClassName&lt;Money&gt;(money);
   }
 }
 &nbsp;
