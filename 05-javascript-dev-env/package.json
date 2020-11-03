@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "install": "echo \"[NPM INSTALL DONE!]\"",
-    "prebuild": "echo \"[RUN PREBUILD!]\" && npm run del:dist",
-    "del:dist": "del-cli ./dist",
+    "prebuild": "echo \"[RUN PREBUILD!]\"",
     "test": "jest --watchAll",
-    "start": "webpack-dev-server --open --mode development --progress --watch",
+    "start": "webpack-dev-server --mode development --progress --watch",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -18,6 +17,7 @@
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@babel/register": "^7.12.1",
+    "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^4.1.0",
     "dart-sass": "^1.25.0",
