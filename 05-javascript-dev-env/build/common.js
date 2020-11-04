@@ -10,8 +10,6 @@ export const isDevMode = args => args.mode === 'development';
 export const nameByENV = (IS_DEV_MODE, ext = '.[ext]') => IS_DEV_MODE ? `[name]${ext}` : `[name].[hash]${ext}`;
 
 export const useOnlyDevMode = (plugin, args) => {
-  // eslint-disable-next-line no-console
-  console.log('isDevMode(args)', isDevMode(args));
   if (!isDevMode(args)) {
     return null;
   }
