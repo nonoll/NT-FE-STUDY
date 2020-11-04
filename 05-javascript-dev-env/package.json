@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "JavaScript 개발환경",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "install": "echo \"[NPM INSTALL DONE!]\"",
     "prebuild": "echo \"[RUN PREBUILD!]\"",

@@ -24,7 +24,7 @@ const config = (_, args) => {
       }
     },
     output: {
-      filename: IS_DEV_MODE ? 'js/[name].js' : 'js/[name].[hash].js',
+      filename: IS_DEV_MODE ? 'js/[name].js' : 'js/[name].js?[contenthash]',
       path: path.resolve(__dirname, 'dist')
     },
     devServer: webpackConfigDevServer(_, args),
